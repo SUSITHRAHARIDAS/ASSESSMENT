@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USER-REGISTRATION FORM</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script>
+        function tku() {
+            alert("THANK YOU")
+        }
+    </script>
+    <style>
+        table {
+            background-color: lightgray;
+            
+
+        }
+
+        .userinp {
+            text-align: right;
+        }
+
+        .reg-form {
+            margin: 150px 60px 70px 450px
+        }
+
+        .grp {
+            border: 1px solid wheat;
+        }
+        .submit{
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="reg-form">
+        <form method="POST" onsubmit="tku()">
+            <table>
+                <tr>
+
+                    <td><label for="name">Full Name</label></td>
+                    <td class="userinp">
+                        <div class="grp"><i class="fa fa-user" class="icon" aria-hidden="true"></i>
+                            <input type="text" id="name" name="name" placeholder="Full Name" value="" required></div>
+                    </td>
+                </tr>
+                <tr>
+
+                    <td> <label for="address1">Address Line 1</label></td>
+                    <td class="userinp">
+                        <div class="grp"><i class="fa fa-address-book-o" aria-hidden="true"></i>
+                            <input type="text" id="address1" name="address1" placeholder="Address Line 1" val=""
+                                required></div>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td><label for="address2">Address Line 2</label></td>
+                    <td class="userinp">
+                        <div class="grp"><i class="fa fa-address-book-o" aria-hidden="true"></i>
+                            <input type="text" id="address2" name="address2" placeholder="Address Line 2" val=""
+                                required></div>
+                    </td>
+                </tr>
+
+                <tr>
+
+                    <td><label for="city">City</label></td>
+                    <td class="userinp">
+                        <div class="grp"><i class="fa fa-building-o" aria-hidden="true"></i>
+                            <input type="text" id="city" name="city" placeholder="City" val="" required></div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="state">State/Province/Region</label></td>
+                    <td class="userinp">
+                        <div class="grp"><i class="fa fa-map-marker" aria-hidden="true"></i>
+                            <input type="text" id="state" name="state" placeholder="State/Province/Region" val=""
+                                required></div>
+                    </td>
+
+                </tr>
+                <tr>
+
+                    <td><label for="zip">Postal Code/ZIP</label></td>
+                    <td class="userinp">
+                        <div class="grp"><i class="fa fa-envelope-open-o" aria-hidden="true"></i>
+                            <input type="zip" id="zip" name="zip" placeholder="Postal Code/ZIP" val="" required></div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="country">Country</label></td>
+                    <td class="userinp">
+                        <div class="grp"><i class="fa fa-globe" aria-hidden="true"></i>
+                            <select id="country" name="country" style="height:22px;width:144px" required> 
+                                <option val="Afghanistan" selected>Afghanistan</option>
+                                <option val="India">India</option>
+                                <option val="Singapore">Singapore</option>
+                                <option val="Malaysia">Malaysia</option>
+                                <option val="Australia">Australia</option>
+                            </select></div>
+                    </td>
+
+                </tr>
+
+
+                <tr>
+                    <td><label for="mail">Email</label></td>
+                    <td class="userinp">
+                        <div class="grp"><i class="fa fa-user" class="icon" aria-hidden="true"></i>
+                            <input type="email" id="mail" name="mail" placeholder="Email" value="" required></div>
+                    </td>
+
+                </tr>
+
+                <td><label for="phno">Phone Number</label></td>
+                <td class="userinp">
+                    <div class="grp"><i class="fa fa-user" class="icon" aria-hidden="true"></i>
+                        <input type="text" id="phno" name="phno" placeholder="Phone Number" val="" required></div>
+                </td>
+
+                </tr>
+                <tr>
+                    <td class="submit" colspan="2"><input type="submit" value="SUBMIT"></td>
+
+                </tr>
+
+
+
+
+
+
+
+
+            </table>
+
+        </form>
+    </div>
+
+
+
+
+
+</body>
+
+</html>
